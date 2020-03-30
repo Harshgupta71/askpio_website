@@ -48,7 +48,7 @@ var PIXELSIGNS = PIXELSIGNS || {};
                 return d(t).fadeIn(400), !1
             }), d(".site-main-menu li a").each(function() {
                 d(this).attr("href") == location.href.split("/").slice(-1) && d(this).addClass("current_page")
-            }), d("body").on("contextmenu", function(t) {
+            }), d(".body1").on("contextmenu", function(t) {
                 return t.preventDefault(), t.stopPropagation(), !1
             }), d(document).on("keydown", function(t) {
                 return !(t.ctrlKey && 85 == t.keyCode || t.ctrlKey && t.shiftKey && 73 == t.keyCode || t.ctrlKey && t.shiftKey && 75 == t.keyCode || t.metaKey && t.shiftKey && 91 == t.keyCode)
