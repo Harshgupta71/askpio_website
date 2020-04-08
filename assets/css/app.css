@@ -7218,7 +7218,7 @@
     -webkit-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
-    opacity: .6
+    opacity: .6;
   }
   
   .review-slider .review-content-inner .review-score {
@@ -7235,6 +7235,14 @@
   
   .review-slider .review-content-inner .rating {
     margin-bottom: 22px
+  }
+
+  .review-brand-logo{
+    transition: transform .2s; /* Animation */
+  }
+
+  .review-brand-logo:hover{
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   }
   
   @media (max-width:991px) {
@@ -8196,8 +8204,9 @@
     font-size: 16px;
     font-weight: 500;
     position: relative;
-    z-index: 2
+    z-index: 2;    
   }
+
   
   .call-to-action .action-content.style-two .title {
     font-size: 40px;
@@ -8297,6 +8306,20 @@
     font-size: 24px;
     font-weight: 500;
     margin: 0
+  }
+
+  
+  .call-to-action-three .pix-btn.btn-light.btn-outline:hover {
+    background-color: #ffffff !important;
+  }
+
+  .call-to-action-three .pix-btn.btn-big {
+    transition: transform .2s; /* Animation */
+    transform: scale(0.8); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+  .call-to-action-three .pix-btn.btn-big:hover {
+    transform: scale(1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   }
   
   @media (max-width:1200px) {
@@ -12583,7 +12606,7 @@
   }
   
   #footer .widget.footer-widget p {
-    margin-bottom: 20px
+    margin-bottom: 10px
   }
   
   #footer .footer-menu {
