@@ -1770,7 +1770,8 @@
       transform: scale(0) translate(-50%, -50%)
     }
   }
-  
+ 
+
   .site-header {
     position: absolute;
     width: 100%;
@@ -1779,7 +1780,12 @@
     z-index: 9999;
     -webkit-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out
+    transition: all .3s ease-in-out;
+    background: #ffffff;
+  } 
+
+  .site-header-home {
+    background: transparent;
   }
   
   .site-header .header-inner {
@@ -1854,7 +1860,8 @@
     font-weight: 600;
     border-radius: 30px;
     font-size: 14px;
-    border: 2px solid transparent
+    /* border: 2px solid transparent */
+    border: 2px solid #0C8CCB;
   }
   
   .site-header .header-inner .site-nav .nav-right .nav-btn:hover {
@@ -1906,11 +1913,13 @@
     display: -ms-flexbox;
     display: flex
   }
+
+  
   
   .site-header .site-main-menu li {
     margin: 0 23px;
     position: relative;
-    padding: 36px 0;
+    padding: 28px 0;
     -webkit-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out
@@ -8314,7 +8323,7 @@
   }
 
   .call-to-action-three .pix-btn.btn-big {
-    transition: transform .2s; /* Animation */
+    transition: all .4s; /* Animation */
     transform: scale(0.8); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   }
 
@@ -8865,7 +8874,8 @@
   }
   
   .page-banner {
-    background: #e0f1fa;
+    /*background: #e0f1fa;*/
+    background: #90D5F9;
     text-align: center;
     height: 550px;
     display: -webkit-box;
@@ -9006,7 +9016,8 @@
   }
   
   .animate-ball .ball {
-    background: #f3fafd;
+    /* background: #f3fafd; */
+    background: #B1E0F9;
     border-radius: 50%;
     position: absolute
   }
@@ -9023,7 +9034,7 @@
   .animate-ball .ball:nth-child(2) {
     height: 70px;
     width: 70px;
-    bottom: 22%;
+    bottom: 12%;
     right: 8%;
     -webkit-animation: e 4s infinite alternate;
     animation: e 4s infinite alternate
@@ -9032,7 +9043,7 @@
   .animate-ball .ball:nth-child(3) {
     height: 100px;
     width: 100px;
-    bottom: 43%;
+    bottom: 33%;
     right: 22%;
     -webkit-animation: c 1.5s infinite alternate;
     animation: c 1.5s infinite alternate
@@ -9041,7 +9052,7 @@
   .animate-ball .ball:nth-child(4) {
     height: 40px;
     width: 40px;
-    bottom: 20%;
+    bottom: 10%;
     right: 32%;
     -webkit-animation: f 1.5s infinite alternate;
     animation: f 1.5s infinite alternate
@@ -9050,7 +9061,8 @@
   .animate-ball .ball:nth-child(5) {
     height: 500px;
     width: 500px;
-    top: -75%;
+    /* top: -75%; */
+    top: -56%;
     right: 100px;
     -webkit-animation: g 3s .1s infinite linear;
     animation: g 3s .1s infinite linear
@@ -9060,7 +9072,8 @@
     height: 700px;
     position: relative;
     overflow: hidden;
-    background: #e0f1fa;
+    background: #90D5F9;
+    /* background: #e0f1fa;*/
     z-index: 2
   }
   
@@ -9093,12 +9106,12 @@
   }
   
   .page-banner-contact .animate-ball .ball:nth-child(4) {
-    bottom: 28%;
+    bottom: 18%;
     right: 40%
   }
   
   .page-banner-contact .animate-ball .ball:nth-child(5) {
-    top: -60%
+    top: -50%
   }
   
   .animate-element-contact {
@@ -9120,7 +9133,7 @@
   }
   
   .animate-element-contact img:nth-child(2) {
-    bottom: 41px;
+    bottom: 31px;
     left: 128px
   }
   
@@ -12822,14 +12835,14 @@
   
   #footer.footer-askpio-service .footer-logo {
     display: block;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     width:200px;
   }
   
   #footer.footer-askpio-service .email-info {
     display: block;
     color: #0C8CCB;
-    margin-bottom: 20px
+    margin-bottom: 10px
   }
   
   #footer.footer-askpio-service .email-info i {
