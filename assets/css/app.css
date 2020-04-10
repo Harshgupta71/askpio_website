@@ -2897,7 +2897,8 @@
   }
   
   .banner.banner-six {
-    height: 950px;
+    /* height: 950px; */
+    height: 807px;
     position: relative;
     padding-top: 225px;
     overflow: hidden
@@ -2918,8 +2919,8 @@
   }
   
   .banner.banner-six .banne-content-wrapper-six .banner-title {
-    font-size: 50px;
-    line-height: 60px;
+    font-size: 45px;
+    line-height: 52px;
     font-weight: 600;
     margin-bottom: 20px
   }
@@ -2945,9 +2946,9 @@
   }
   
   .banner.banner-six .banner-six-promo-image>img {
-    /* border-radius: 10px;
+    border-radius: 10px;
     -webkit-box-shadow: 0 30px 40px 0 rgba(1, 50, 5, .14);
-    box-shadow: 0 30px 40px 0 rgba(1, 50, 5, .14) */
+    box-shadow: 0 30px 40px 0 rgba(1, 50, 5, .14)
   }
   
   .banner.banner-six .banner-six-promo-image .dot-shape {
