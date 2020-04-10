@@ -2945,9 +2945,9 @@
   }
   
   .banner.banner-six .banner-six-promo-image>img {
-    border-radius: 10px;
+    /* border-radius: 10px;
     -webkit-box-shadow: 0 30px 40px 0 rgba(1, 50, 5, .14);
-    box-shadow: 0 30px 40px 0 rgba(1, 50, 5, .14)
+    box-shadow: 0 30px 40px 0 rgba(1, 50, 5, .14) */
   }
   
   .banner.banner-six .banner-six-promo-image .dot-shape {
@@ -2997,7 +2997,7 @@
   
   .banner.banner-six .bottom-shape-coin li:nth-child(5) {
     top: 35%;
-    left: 10%
+    left: 4%
   }
   
   .banner.banner-six .particles-six span {
