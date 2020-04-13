@@ -2982,7 +2982,8 @@
   }
   
   .banner.banner-six .bottom-shape-coin li:nth-child(2) {
-    left: 60px
+    /* left: 60px */
+    left: 0px
   }
   
   .banner.banner-six .bottom-shape-coin li:nth-child(3) {
@@ -2997,8 +2998,10 @@
   }
   
   .banner.banner-six .bottom-shape-coin li:nth-child(5) {
-    top: 35%;
-    left: 4%
+    /* top: 35%;
+    left: 4% */
+    top:28%;
+    left:3%;
   }
   
   .banner.banner-six .particles-six span {
@@ -9385,6 +9388,10 @@
     content: "\3b";
     color: #0C8CCB;
     top: -1px
+  }
+
+  .about-thumb img{
+    margin-top: 100px;
   }
   
   @media (max-width:1200px) {
