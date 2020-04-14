@@ -9402,6 +9402,9 @@
   }
   
   @media (max-width:991px) {
+    .about-thumb img{
+      margin-top: 0px;
+    }
     .about {
       padding-top: 76px
     }
