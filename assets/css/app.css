@@ -8699,7 +8699,8 @@
     max-width: 770px;
     margin: 0 auto;
     z-index: 22;
-    position: relative
+    position: relative !important;
+    padding: 0 !important;
   }
   
   .newsletter-form-two .newsletter-inner {
@@ -8713,12 +8714,12 @@
   
   .newsletter-form-two .newsletter-inner input {
     background: transparent;
-    border: 0;
+    border: 0 !important;
     outline: 0;
     color: #fff;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #fff !important;
     padding: 15px 15px 15px 0;
-    border-radius: 0;
+    border-radius: 0 !important;
     height: 60px;
     max-width: 500px;
     margin: 0;
@@ -8746,7 +8747,8 @@
     color: #fff
   }
   
-  .newsletter-form-two .newsletter-inner .newsletter-submit {
+  .newsletter-form-two .newsletter-inner .newsletter-submit 
+  {
     width: 220px;
     height: 60px;
     background: #fff;
@@ -8758,7 +8760,49 @@
     box-shadow: 0 20px 30px 0 rgba(79, 35, 35, .15);
     -webkit-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out
+    transition: all .3s ease-in-out;
+    padding: 1px 6px !important;
+    margin: 0;
+  }
+  #mc_embed_signup input.email{
+    background: transparent !important;
+    border: 0 !important;
+    outline: 0;
+    color: #fff !important;
+    border-bottom: 1px solid #fff !important;
+    padding: 15px 15px 15px 0 !important;
+    border-radius: 0 !important;
+    height: 60px !important;
+    max-width: 500px !important;
+    margin: 0 !important;
+    width: 100% !important;
+
+  }
+  #mc_embed_signup .button
+  {
+    width: 220px !important;
+    height: 60px !important;
+    background: #fff !important;
+    border: 0 !important;
+    border-radius: 30px !important;
+    color: #0C8CCB !important;
+    font-weight: 600 !important;
+    -webkit-box-shadow: 0 20px 30px 0 rgba(79, 35, 35, .15) !important;
+    box-shadow: 0 20px 30px 0 rgba(79, 35, 35, .15) !important;
+    -webkit-transition: all .3s ease-in-out !important;
+    -o-transition: all .3s ease-in-out !important;
+    transition: all .3s ease-in-out !important;
+    padding: 1px 6px !important;
+    font-size: 16px !important;
+    margin:0 !important;
+  }
+  #mc_embed_signup #mce-success-response {
+    color: #2b2350 !important;
+}
+
+  #mc_embed_signup div.response{
+    margin:0 !important;
+    font-weight:500 !important;
   }
   
   .newsletter-form-two .newsletter-inner .newsletter-submit i {
